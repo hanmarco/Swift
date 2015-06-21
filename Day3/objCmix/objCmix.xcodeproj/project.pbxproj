@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7C04EE51B32A9F60078FA77 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C04EE41B32A9F60078FA77 /* main.swift */; };
+		E7C04EEE1B32AA0A0078FA77 /* NSObject+objc.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C04EED1B32AA0A0078FA77 /* NSObject+objc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7C04EDF1B32A9F60078FA77 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7C04EE11B32A9F60078FA77 /* objCmix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objCmix; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C04EE41B32A9F60078FA77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E7C04EEB1B32AA090078FA77 /* objCmix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objCmix-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7C04EEC1B32AA0A0078FA77 /* NSObject+objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+objc.h"; sourceTree = "<group>"; };
+		E7C04EED1B32AA0A0078FA77 /* NSObject+objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+objc.m"; sourceTree = "<group>"; };
+		E7C04EEF1B32AA4C0078FA77 /* mix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mix.h; sourceTree = "<group>"; };
+		E7C04EF01B32AA5A0078FA77 /* NSObject_mixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_mixed.h; sourceTree = "<group>"; };
+		E7C04EF11B32AA6C0078FA77 /* NSObject_mix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_mix.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7C04EDE1B32A9F60078FA77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7C04ED81B32A9F60078FA77 = {
+			isa = PBXGroup;
+			children = (
+				E7C04EEC1B32AA0A0078FA77 /* NSObject+objc.h */,
+				E7C04EED1B32AA0A0078FA77 /* NSObject+objc.m */,
+				E7C04EEF1B32AA4C0078FA77 /* mix.h */,
+				E7C04EF01B32AA5A0078FA77 /* NSObject_mixed.h */,
+				E7C04EE31B32A9F60078FA77 /* objCmix */,
+				E7C04EE21B32A9F60078FA77 /* Products */,
+				E7C04EEB1B32AA090078FA77 /* objCmix-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		E7C04EE21B32A9F60078FA77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C04EE11B32A9F60078FA77 /* objCmix */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C04EE31B32A9F60078FA77 /* objCmix */ = {
+			isa = PBXGroup;
+			children = (
+				E7C04EE41B32A9F60078FA77 /* main.swift */,
+				E7C04EF11B32AA6C0078FA77 /* NSObject_mix.h */,
+			);
+			path = objCmix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7C04EE01B32A9F60078FA77 /* objCmix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C04EE81B32A9F60078FA77 /* Build configuration list for PBXNativeTarget "objCmix" */;
+			buildPhases = (
+				E7C04EDD1B32A9F60078FA77 /* Sources */,
+				E7C04EDE1B32A9F60078FA77 /* Frameworks */,
+				E7C04EDF1B32A9F60078FA77 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objCmix;
+			productName = objCmix;
+			productReference = E7C04EE11B32A9F60078FA77 /* objCmix */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7C04ED91B32A9F60078FA77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "한상현";
+				TargetAttributes = {
+					E7C04EE01B32A9F60078FA77 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = E7C04EDC1B32A9F60078FA77 /* Build configuration list for PBXProject "objCmix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7C04ED81B32A9F60078FA77;
+			productRefGroup = E7C04EE21B32A9F60078FA77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7C04EE01B32A9F60078FA77 /* objCmix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7C04EDD1B32A9F60078FA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C04EE51B32A9F60078FA77 /* main.swift in Sources */,
+				E7C04EEE1B32AA0A0078FA77 /* NSObject+objc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7C04EE61B32A9F60078FA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7C04EE71B32A9F60078FA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E7C04EE91B32A9F60078FA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "objCmix-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7C04EEA1B32A9F60078FA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "objCmix-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7C04EDC1B32A9F60078FA77 /* Build configuration list for PBXProject "objCmix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C04EE61B32A9F60078FA77 /* Debug */,
+				E7C04EE71B32A9F60078FA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C04EE81B32A9F60078FA77 /* Build configuration list for PBXNativeTarget "objCmix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C04EE91B32A9F60078FA77 /* Debug */,
+				E7C04EEA1B32A9F60078FA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7C04ED91B32A9F60078FA77 /* Project object */;
+}
